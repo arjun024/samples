@@ -1,0 +1,1 @@
+web: find build -exec touch {} \; && nginx -p /workspace -c /workspace/nginx.conf -g "pid /tmp/nginx.pid;"
